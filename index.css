@@ -29,6 +29,31 @@ h3 {
   padding: 20px;
 }
 
+.shapes-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rect {
+  fill: green;
+}
+
+.rect:hover {
+  fill: orange;
+}
+
+.circle {
+  fill: cadetblue;
+}
+
+.circle:hover {
+  fill: hotpink;
+}
+
+svg {
+  width: 12%;
+}
+
 .acknowledgements-container {
   display: flex;
   justify-content: center;
