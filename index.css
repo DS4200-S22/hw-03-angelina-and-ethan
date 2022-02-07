@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.flex-item {
+  width: 45%;
+  padding: 20px;
+}
+
+.flex-item img {
+  max-width: 100%;
+}
+
+.acknowledgements-container {
+  display: flex;
+  justify-content: center;
+}
